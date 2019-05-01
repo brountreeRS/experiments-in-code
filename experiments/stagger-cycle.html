@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+
+<head>
+    <title>stagger cycle</title>
+
+
+    <link href='//fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Asap', Arial, Helvetica, sans-serif;
+            color: white;
+            background: black url(//s3-us-west-2.amazonaws.com/s.cdpn.io/16327/texture_bg.jpg) no-repeat 50% 0px;
+            overflow: hidden;
+        }
+
+        h2 {
+            font-size: 60px;
+            text-align: center;
+        }
+
+        .wrapper {
+            visibility: hidden;
+            width: 800px;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        button {
+            position: relative;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .rerun-button {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Stagger Effects with Cycle master cleanse aesthetic meh mlkshk Williamsburg gentrify chia dreamcatcher Banksy</h2>
+    </div>
+
+    <h3>434 Franklin street #1 and my phone number to text is 774-722-3935</h3>
+    <button id="restart" class="dark-grey-button club-demo-button">restart</button>
+
+
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='js/src/uncompressed/utils/SplitText.js'></script>
+    <script src="js/TweenMax.min.js"></script>
+
+
+    <script>
+        var titleText = new SplitText(".wrapper h2", {
+                type: "chars"
+            }),
+            numTitleChars = titleText.chars.length,
+            tl = new TimelineMax({
+                delay: 0.5,
+                repeat: 3
+            });
+
+        TweenLite.set(".wrapper", {
+            visibility: "visible"
+        });
+        tl.staggerFrom(titleText.chars, 0.8, {
+                ease: Back.easeOut,
+                x: 100,
+                cycle: {
+                    y: curve,
+                    rotation: [-360, -360]
+                },
+                opacity: 0
+            }, 0.02)
+            .staggerTo(titleText.chars, 0.8, {
+                ease: Back.easeOut,
+                cycle: {
+                    y: [200, -200],
+                    rotation: [-220, 220]
+                },
+                opacity: 0
+            }, 0.03, "+=1")
+
+
+        //position starting y of each letter on a cos curve;
+        function curve(i) {
+            var n = i / numTitleChars * 6.24;
+            return (Math.cos(n)) * -500;
+        }
+
+
+        /*
+        See https://www.greensock.com/splittext/ for details. 
+        This demo uses SplitText which is a membership benefit of Club GreenSock, https://www.greensock.com/club/
+        */
+        //document.getElementById("restart").onclick(function () {
+         //   tl.restart();
+      //  })
+        
+        $("#restart").click(function () {
+            tl.restart();
+        })
+    </script>
+</body>
+
+</html>

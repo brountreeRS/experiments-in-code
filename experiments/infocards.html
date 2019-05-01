@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+
+<head>
+    <title>brian's experiments</title>
+
+   <link rel="stylesheet" href="css/experiments.css"/>
+</head>
+
+<body>
+
+<div class="grid-container">
+  <div class="content">
+
+    <h1>In motion</h1>
+    <p>These are just some random motion graphic, web animation and UI ideas that bounce around in my head</p>
+
+
+
+    <div id="elsign"></div>
+<div id="vp">
+  <div id="elcode"></div>
+</div>
+
+  </div>
+  
+  
+  <div class="menu">
+    
+     <div class="menucontainer">
+        <a href="infocards.html" class="card">
+            <h2>Info Cards</h2>
+            <i class="fas fa-arrow-right"></i>
+            <p>a lonely trip.</p>
+            <div class="pic"></div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <button>
+            </button>
+        </a>
+        <a href="human.html" class="card card2">
+            <h2>Bun in the Oven</h2>
+            <i class="fas fa-arrow-right"></i>
+            <p>a satire.</p>
+            <div class="pic"></div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <button>
+            </button>
+        </a>
+         <a href="nested-timelines.html" class="card card3">
+            <h2>Nested Timelines</h2>
+            <i class="fas fa-arrow-right"></i>
+            <p>a lonely trip.</p>
+            <div class="pic"></div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <button>
+            </button>
+        </a>
+        <a href="splitText.html" class="card card4">
+            <h2>Split Text</h2>
+            <i class="fas fa-arrow-right"></i>
+            <p>a lonely trip.</p>
+            <div class="pic"></div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <button>
+            </button>
+        </a>
+         <a href="stagger-cycle.html" class="card">
+            <h2>Stagger</h2>
+            <i class="fas fa-arrow-right"></i>
+            <p>a lonely trip.</p>
+            <div class="pic"></div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <button>
+            </button>
+        </a>
+        <div class="card card2">
+            <h2>Vauxhall</h2>
+            <i class="fas fa-arrow-right"></i>
+            <p>a lonely trip.</p>
+            <div class="pic"></div>
+            <ul>
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <div class="social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+            </div>
+            <button>
+            </button>
+        </div>
+    </div>
+
+  
+  </div>
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>
+const s = "/js/TweenMax.min.js";
+elsign.textContent = s;
+fetch(s)
+  .then(r => r.text())
+  .then(t => (elcode.textContent = t))
+  .then(_ => hljs.highlightBlock(elcode));
+
+</script>
+
+</body>
+
+</html>
