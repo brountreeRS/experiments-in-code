@@ -28,25 +28,25 @@
     "three": "^0.98.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.52",
+    "@babel/core": "^7.4.4",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0-rc.1",
     "@babel/polyfill": "^7.0.0-beta.55",
-    "@babel/preset-env": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.4.4",
     "babel-loader": "^8.0.0-beta.4",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.2",
-    "css-loader": "^0.28.11",
+    "css-loader": "^2.1.1",
     "file-loader": "^1.1.11",
     "glslify": "^6.2.1",
     "glslify-import-loader": "^0.1.2",
-    "glslify-loader": "^1.0.2",
+    "glslify-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "imports-loader": "^0.8.0",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.21.0",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.4",
+    "webpack-dev-server": "^3.3.1",
     "webpack-merge": "^4.1.3"
   }
 }
