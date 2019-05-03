@@ -1,14 +1,15 @@
 @font-face {
   font-family: 'League Spartan';
-  src: url('/fontsleaguespartan-bold.eot');
-  src: url('/fontsleaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-       url('/fontsleaguespartan-bold.woff2') format('woff2'),
-       url('/fontsleaguespartan-bold.woff') format('woff'),
-       url('/fontsleaguespartan-bold.ttf') format('truetype'),
-       url('/fontsleaguespartan-bold.svg#league_spartanbold') format('svg');
+  src: url('/fonts/leaguespartan-bold.eot');
+  src: url('/fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/leaguespartan-bold.woff2') format('woff2'),
+    url('/fonts/leaguespartan-bold.woff') format('woff'),
+    url('/fonts/leaguespartan-bold.ttf') format('truetype'),
+    url('/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
+
 .oxygen {
   font-family: "League Spartan", sans-serif !important;
 }
@@ -204,19 +205,21 @@ a {
   cursor: pointer;
 }
 
-ul ul li {margin:10px 0 0 30px;}
+ul ul li {
+  margin: 10px 0 0 30px;
+}
 
 
 
 /***
- *      __  __              
- *     |  \/  |     ( )      
- *     | \  / | __ _ _ _ __  
- *     | |\/| |/ _` | | '_ \ 
+ *      __  __
+ *     |  \/  |     ( )
+ *     | \  / | __ _ _ _ __
+ *     | |\/| |/ _` | | '_ \
  *     | |  | | (_| | | | | |
  *     |_|  |_|\__,_|_|_| |_|
- *                           
- *                           
+ *
+ *
  */
 .slides {
   color: #fff;
@@ -899,7 +902,8 @@ a:hover {
   opacity: 0.75;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-family: 'League Spartan', serif;
   font-size: 60px;
   line-height: 1.05;
@@ -909,26 +913,31 @@ h1, .h1 {
   margin-left: -0.05em;
 }
 
-h1.mega, .h1.mega {
+h1.mega,
+.h1.mega {
   font-size: 100px;
   margin-bottom: 50px;
   letter-spacing: -0.025em;
 }
 
-h1.huge, .h1.huge {
+h1.huge,
+.h1.huge {
   font-size: 80px;
   margin-bottom: 50px;
 }
 
-h1.small, .h1.small {
+h1.small,
+.h1.small {
   font-size: 40px;
 }
 
-h1.micro, .h1.micro {
+h1.micro,
+.h1.micro {
   font-size: 30px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 28px;
   text-transform: uppercase;
   line-height: 1.17;
@@ -937,19 +946,23 @@ h2, .h2 {
   margin-bottom: 30px;
 }
 
-h2.small, .h2.small {
+h2.small,
+.h2.small {
   font-size: 24px;
 }
 
-h2.micro, .h2.micro {
+h2.micro,
+.h2.micro {
   font-size: 12px;
 }
 
-h2.huge, .h2.huge {
+h2.huge,
+.h2.huge {
   font-size: 52px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 18px;
   font-family: "League Spartan";
   margin-bottom: 12px;
@@ -957,15 +970,19 @@ h3, .h3 {
   margin-left: -0.01em;
 }
 
-h3.large, .h3.large, ul.large {
+h3.large,
+.h3.large,
+ul.large {
   font-size: 30px;
 }
 
-h3.little, .h3.little {
+h3.little,
+.h3.little {
   font-size: 12px;
 }
 
-h3.small, .h3.small {
+h3.small,
+.h3.small {
   font-size: 15px;
 }
 
@@ -1042,7 +1059,7 @@ h5.small,
 p {
   font-family: 'League Spartan', sans-serif;
   font-size: 26px;
-  font-weight:200;
+  font-weight: 200;
   line-height: 1.385;
   margin: 20px 0 30px 0;
   opacity: 0.8;
@@ -1077,7 +1094,7 @@ p.micro,
 p.mirco
 
 /* sorry folks */
- p.sorry {
+p.sorry {
   font-size: 16px;
   line-height: 1.22727273;
   margin-bottom: 20px;
@@ -2012,14 +2029,14 @@ form label.uppercase {
 
 
 /***
- *       _____ _       _          
- *      / ___/| ( )   | |         
- *     | (___ | |_  __| | ___ ____ 
+ *       _____ _       _
+ *      / ___/| ( )   | |
+ *     | (___ | |_  __| | ___ ____
  *      \___ \| | |/ _` |/ _ / __/
  *      ____) | | | (_| |  __\__ \
  *     /_____/|_|_|\__,_|\___/___/
- *                                
- *                                
+ *
+ *
  */
 .slide {
   position: fixed;
@@ -2590,7 +2607,7 @@ html:not(.mobile) .slide.video .background[style] {
   padding: 6% 10%;
   border: 4px solid #fff;
   color: #303030;
- overflow: hidden;
+  overflow: hidden;
 }
 
 .pad.shadow {
@@ -2870,14 +2887,14 @@ html:not(.mobile) .slide.video .background[style] {
 
 
 /***
- *      _____                 _     
- *     |  __ \               | |    
- *     | |__) __ _ _ __   ___| |____ 
+ *      _____                 _
+ *     |  __ \               | |
+ *     | |__) __ _ _ __   ___| |____
  *     |  ___/ _` | '_ \ / _ | / __/
  *     | |  | (_| | | | |  __| \__ \
  *     |_|   \__,_|_| |_|\___|_/___/
- *                                  
- *                                  
+ *
+ *
  */
 .panel {
   font-family: 'League Spartan', sans-serif;
@@ -3249,14 +3266,14 @@ html:not(.page-loaded) .slides.scroll .slide {
 
 
 /***
- *       _____       _      
- *      / ___/( )   | |     
- *     | (___  _  __| | ___ 
+ *       _____       _
+ *      / ___/( )   | |
+ *     | (___  _  __| | ___
  *      \___ \| |/ _` |/ _ \
  *      ____) | | (_| |  __/
  *     /_____/|_|\__,_|\___/
- *                          
- *                          
+ *
+ *
  */
 .side {
   position: fixed;
@@ -3566,14 +3583,14 @@ html:not(.page-loaded) .slides.scroll .slide {
 
 
 /***
- *       _____ _                    
- *      / ___/| |                   
- *     | (___ | |__   __ _ _ __ ___ 
+ *       _____ _
+ *      / ___/| |
+ *     | (___ | |__   __ _ _ __ ___
  *      \___ \| '_ \ / _` | '__/ _ \
  *      ____) | | | | (_| | | |  __/
  *     /_____/|_| |_|\__,_|_|  \___/
- *                                  
- *                                  
+ *
+ *
  */
 .dropdown {
   position: fixed;
@@ -3769,14 +3786,14 @@ html:not(.page-loaded) .slides.scroll .slide {
 
 
 /***
- *       _____       _      _                
- *      / ___/( )   | |    | |               
+ *       _____       _      _
+ *      / ___/( )   | |    | |
  *     | (___  _  __| | ___| |__   __ _ _ ___
  *      \___ \| |/ _` |/ _ | '_ \ / _` | '__/
- *      ____) | | (_| |  __| |_) | (_| | |   
- *     /_____/|_|\__,_|\___|_.__/ \__,_|_|   
- *                                           
- *                                           
+ *      ____) | | (_| |  __| |_) | (_| | |
+ *     /_____/|_|\__,_|\___|_.__/ \__,_|_|
+ *
+ *
  */
 .sidebar {
   font-family: "League Spartan";
@@ -4023,14 +4040,14 @@ html:not(.page-loaded) .slides.scroll .slide {
 
 
 /***
- *      _____                        
- *     |  __ \                       
- *     | |__) __  _ __  _   _ _ __  
- *     |  ___/ _ \| '_ \| | | | '_ \ 
+ *      _____
+ *     |  __ \
+ *     | |__) __  _ __  _   _ _ __
+ *     |  ___/ _ \| '_ \| | | | '_ \
  *     | |  | (_) | |_) | |_| | |_) |
- *     |_|   \___/| .__/ \__,_| .__/ 
- *                | |         | |    
- *                |_|         |_|    
+ *     |_|   \___/| .__/ \__,_| .__/
+ *                | |         | |
+ *                |_|         |_|
  */
 
 
@@ -4153,7 +4170,7 @@ html:not(.page-loaded) .slides.scroll .slide {
   cursor: pointer;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transform:translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -4247,14 +4264,14 @@ html:not(.page-loaded) .slides.scroll .slide {
 
 
 /***
- *      ______                       _____                            
- *     |___  /                      |_   _|                           
- *        / / ___   ___  _ __ ___     | |  _ __ ___   __ _  __ _  ___ 
+ *      ______                       _____
+ *     |___  /                      |_   _|
+ *        / / ___   ___  _ __ ___     | |  _ __ ___   __ _  __ _  ___
  *       / / / _ \ / _ \| '_ ` _ \    | | | '_ ` _ \ / _` |/ _` |/ _ \
  *      / /_| (_) | (_) | | | | | |  _| |_| | | | | | (_| | (_| |  __/
  *     /_____\___/ \___/|_| |_| |_| |_____|_| |_| |_|\__,_|\__, |\___/
- *                                                          __/ |     
- *                                                         |___/      
+ *                                                          __/ |
+ *                                                         |___/
  */
 
 [data-action="zoom"] {
@@ -4321,14 +4338,14 @@ img.zoom-img {
 
 
 /***
- *       _____ _ _     _           
- *      / ___/| (_)   | |          
- *     | (___ | |_  __| | ___ _ __ 
+ *       _____ _ _     _
+ *      / ___/| (_)   | |
+ *     | (___ | |_  __| | ___ _ __
  *      \___ \| | |/ _` |/ _ \ '__/
- *      ____) | | | (_| |  __/ |   
- *     /_____/|_|_|\__,_|\___/_|   
- *                                 
- *                                 
+ *      ____) | | | (_| |  __/ |
+ *     /_____/|_|_|\__,_|\___/_|
+ *
+ *
  */
 .slider {
   position: relative;
@@ -4381,7 +4398,7 @@ img.zoom-img {
     .           ,                              o
      *                 ¤     ~            .·
         ______  __  __          _       *
-       |  ___/ / _// _|   *    | |        
+       |  ___/ / _// _|   *    | |
        | |___ | |_| |_ ___  ___| |_ ____
     .  |  __/ |  _|  _/ _ \/ __| __/ __/
    ¯   | |____| | | ||  __| (__| |_\__ \    ¨
@@ -4687,14 +4704,14 @@ img.zoom-img {
 
 
 /***
- *                                       _           _   ______ _                           _       
- *         /\         ( )               | |         | | |  ___/| |                         | |      
- *        /  \   _ __  _ _ __ ___   __ _| |_ ___  __| | | |___ | | ___ _ __ ___   ___ _ __ | |_ ___ 
+ *                                       _           _   ______ _                           _
+ *         /\         ( )               | |         | | |  ___/| |                         | |
+ *        /  \   _ __  _ _ __ ___   __ _| |_ ___  __| | | |___ | | ___ _ __ ___   ___ _ __ | |_ ___
  *       / /\ \ | '_ \| | '_ ` _ \ / _` | __/ _ \/ _` | |  __/ | |/ _ \ '_ ` _ \ / _ \ '_ \| __/ __/
  *      / ____ \| | | | | | | | | | (_| | ||  __/ (_| | | |____| |  __/ | | | | |  __/ | | | |_\__ \
  *     /_/    \_\_| |_|_|_| |_| |_|\__,_|\__\___/\__,_| |_____/|_|\___/_| |_| |_|\___/_| |_|\__|___/
- *                                                                                                  
- *                                                                                                  
+ *
+ *
  */
 
 .animated [class*="ae-"] {
@@ -4992,14 +5009,14 @@ img.zoom-img {
 
 
 /***
- *      ____             _                                   _    ______  __  __          _       
- *     |  _ \           | |                                 | |  |  ____|/ _|/ _|        | |      
- *     | |_) | __ _  ___| | ____ _ _ __ ___  _   _ _ __   __| |  | |__  | |_| |_ ___  ___| |_ ___ 
+ *      ____             _                                   _    ______  __  __          _
+ *     |  _ \           | |                                 | |  |  ____|/ _|/ _|        | |
+ *     | |_) | __ _  ___| | ____ _ _ __ ___  _   _ _ __   __| |  | |__  | |_| |_ ___  ___| |_ ___
  *     |  _ < / _` |/ __| |/ / _` | '__/ _ \| | | | '_ \ / _` |  |  __| |  _|  _/ _ \/ __| __/ __|
  *     | |_) | (_| | (__|   < (_| | | | (_) | |_| | | | | (_| |  | |____| | | ||  __/ (__| |_\__ \
  *     |____/ \__,_|\___|_|\_\__, |_|  \___/ \__,_|_| |_|\__,_|  |______|_| |_| \___|\___|\__|___/
- *                            __/ |                                                               
- *                           |___/                                                                
+ *                            __/ |
+ *                           |___/
  */
 
 /* KEN BURNS */
