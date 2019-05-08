@@ -20,7 +20,7 @@
         "nb_sides": 5
       },
       "image": {
-        "src": "assets/img/particle4.png",
+        "src": "/images/particle4.png",
         "width": 220,
         "height": 334
       }
