@@ -7,7 +7,7 @@
  * GSDevTools is a Club GreenSock membership benefit; You must have a valid membership to use
  * this code without violating the terms of use. Visit http://greensock.com/club/ to sign up or get more details.
  * This work is subject to the software agreement that was issued with your membership.
- * 
+ *
  * @author: Jack Doyle, jack@greensock.com
  **/
 
@@ -654,7 +654,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 					//ANIMATIONS list
 					list = find(".animation-list"),
 					animationLabel = find(".animation-label"),
-					selectedAnimation, //the currently selected animation 
+					selectedAnimation, //the currently selected animation
 					linkedAnimation, //the animation that's linked to all the controls and scrubber. This is always _rootTween if globalSync is true, so it can be different than the selectedAnimation!
 					declaredAnimation, //whatever the user defines in the config object initially (often this will be null). If the user defines a string, it'll be resolved to a real Animation instance for this variable.
 					startTime, endTime,
@@ -758,7 +758,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 									}
 								});
 							}
-							
+
 						} else {
 							if (_rootInstance === _self) {
 								_rootInstance = null;
@@ -787,7 +787,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 							_recordedRoot.resume();
 							linkedAnimation.seek(0);
 						}
-						
+
 						durationLabel.innerHTML = linkedAnimation.duration().toFixed(2);
 						_selectValue(list, selectedAnimation.vars.id, animationLabel);
 					},
@@ -2864,10 +2864,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 						}
 						if (snap instanceof Array) {
 							return function(n) {
-								var i = snap.length,
-									closest = 0,
-									absDif = _max,
-									val, dif;
+								var i = snap.length, closest = 0, absDif = _max, val, dif;
 								while (--i > -1) {
 									val = snap[i];
 									dif = val - n;
@@ -2889,10 +2886,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 						radius = (radius && radius < _max) ? radius * radius : _max; //so we don't have to Math.sqrt() in the functions. Performance optimization.
 						if (typeof(snap) === "function") {
 							return function(point) {
-								var edgeTolerance = !self.isPressed ? 1 : 1 - self.edgeResistance,
-									x = point.x,
-									y = point.y,
-									result, dx, dy; //if we're tweening, disable the edgeTolerance because it's already factored into the tweening values (we don't want to apply it multiple times)
+								var edgeTolerance = !self.isPressed ? 1 : 1 - self.edgeResistance, x = point.x, y = point.y, result, dx, dy; //if we're tweening, disable the edgeTolerance because it's already factored into the tweening values (we don't want to apply it multiple times)
 								point.x = x = (x > maxX ? maxX + (x - maxX) * edgeTolerance : (x < minX) ? minX + (x - minX) * edgeTolerance : x);
 								point.y = y = (y > maxY ? maxY + (y - maxY) * edgeTolerance : (y < minY) ? minY + (y - minY) * edgeTolerance : y);
 								result = snap.call(self, point);
@@ -2917,10 +2911,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 						}
 						if (snap instanceof Array) {
 							return function(p) {
-								var i = snap.length,
-									closest = 0,
-									minDist = _max,
-									x, y, point, dist;
+								var i = snap.length, closest = 0, minDist = _max, x, y, point, dist;
 								while (--i > -1) {
 									point = snap[i];
 									x = point.x - p.x;

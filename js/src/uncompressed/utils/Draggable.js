@@ -1580,10 +1580,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 						}
 						if (snap instanceof Array) {
 							return function(n) {
-								var i = snap.length,
-									closest = 0,
-									absDif = _max,
-									val, dif;
+								var i = snap.length, closest = 0, absDif = _max, val, dif;
 								while (--i > -1) {
 									val = snap[i];
 									dif = val - n;
@@ -1605,10 +1602,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 						radius = (radius && radius < _max) ? radius * radius : _max; //so we don't have to Math.sqrt() in the functions. Performance optimization.
 						if (typeof(snap) === "function") {
 							return function(point) {
-								var edgeTolerance = !self.isPressed ? 1 : 1 - self.edgeResistance,
-									x = point.x,
-									y = point.y,
-									result, dx, dy; //if we're tweening, disable the edgeTolerance because it's already factored into the tweening values (we don't want to apply it multiple times)
+								var edgeTolerance = !self.isPressed ? 1 : 1 - self.edgeResistance, x = point.x, y = point.y, result, dx, dy; //if we're tweening, disable the edgeTolerance because it's already factored into the tweening values (we don't want to apply it multiple times)
 								point.x = x = (x > maxX ? maxX + (x - maxX) * edgeTolerance : (x < minX) ? minX + (x - minX) * edgeTolerance : x);
 								point.y = y = (y > maxY ? maxY + (y - maxY) * edgeTolerance : (y < minY) ? minY + (y - minY) * edgeTolerance : y);
 								result = snap.call(self, point);
@@ -1633,10 +1627,7 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 						}
 						if (snap instanceof Array) {
 							return function(p) {
-								var i = snap.length,
-									closest = 0,
-									minDist = _max,
-									x, y, point, dist;
+								var i = snap.length, closest = 0, minDist = _max, x, y, point, dist;
 								while (--i > -1) {
 									point = snap[i];
 									x = point.x - p.x;
