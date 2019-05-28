@@ -3,7 +3,7 @@
 @import 'slick.css';
 @import 'slick-theme.css';
 @import 'framework.css';
-/* 
+/*
  Table of contents:
  1. Common styles
  2. Common responsive styles
@@ -577,12 +577,12 @@ b, strong {
   }
 }
 .header_18 {
-  background: #2f1893 url(../i/header_18_bg.jpg) no-repeat 50% 50%;
+  background: #2f1893 url(../i/background-code-coder.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   .header_18 {
-    background-image: url(../i/header_18_bg@2x.jpg);
+    background-image: url(../i/background-code-coder.jpg);
   }
 }
 .header_19 .slick-dots {
@@ -3132,3 +3132,6 @@ b, strong {
     margin: 0 10px;
   }
 }
+
+ul li {list-style-type: none;margin:0;padding:0 0.5em 0;}
+.color-main a{color:#f2f2f2;}
