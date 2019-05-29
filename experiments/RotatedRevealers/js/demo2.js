@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2019, Codrops
  * http://www.codrops.com
  */
@@ -19,7 +19,7 @@
             this.DOM = {};
             this.DOM.el = el;
             this.DOM.inner = this.DOM.el.firstElementChild;
-            
+
             this.DOM.inner.style.width = `calc(100vw * ${Math.abs(Math.cos(this.options.angle * Math.PI/180))} + 100vh * ${Math.abs(Math.sin(this.options.angle * Math.PI/180))})`;
             this.DOM.inner.style.height = `calc(100vw * ${Math.abs(Math.sin(this.options.angle * Math.PI/180))} + 100vh * ${Math.abs(Math.cos(this.options.angle * Math.PI/180))})`;
             this.DOM.el.style.transform = `rotate3d(0,0,1,${this.options.angle}deg)`;
@@ -81,7 +81,7 @@
         const duration = 1.2;
         // Define when the overlay animates out and reveals the third page
         const thirdPageTime = duration*0.35;
-        
+
         this.pageToggleTimeline = new TimelineMax()
         // Animate first page elements (optional)
         .to(firstPageContent.img, duration, {
@@ -102,7 +102,7 @@
             ease: ease,
             opacity: 0
         }, 0)
-        
+
         // "Unreveal effect" (inner moves to one direction and reverse moves to the opposite one)
         .to(revealer.DOM.inner, duration, {
             ease: ease,
@@ -164,7 +164,7 @@
             return false;
         }
         enterHoverAnimationRunning = true;
-        
+
         letters = firstPageContent.titleLetters.filter(_ => Math.random() < .5);
         otherletters = firstPageContent.titleLetters.filter(el => letters.indexOf(el) < 0);
 

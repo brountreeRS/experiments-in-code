@@ -1,0 +1,219 @@
+@import 'bootstrap.min.css';
+@import 'aos.min.css';
+@import 'slick.css';
+@import 'slick-theme.css';
+@import 'framework.css';
+/*
+ Table of contents:
+ 1. Common styles
+ 2. Common responsive styles
+ 3. Headers
+ 4. Navigations
+ 5. Contents
+ 6. Testimonials
+ 7. Features
+ 8. Forms
+ 9. Call to Actions
+ 10. Teams
+ 11. Pricing Tables
+ 12. Contacts
+ 13. Showcases
+ 14. Footers
+ */
+/* 1. Common styles */
+body {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1e0e62;
+  -webkit-font-smoothing: antialiased;
+}
+header, section {
+  overflow: hidden;
+}
+header {
+  position: relative;
+}
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+nav {
+  width: 100%;
+}
+a {
+  cursor: pointer;
+  transition: all 0.25s;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+h1, h2 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 0;
+  font-weight: 700;
+  font-family: Poppins;
+}
+h1, h2 {
+  font-size: 58px;
+  line-height: 70px;
+}
+h1.big {
+  font-size: 72px;
+  line-height: 86px;
+}
+h2.small {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 700;
+}
+.container {
+  position: relative;
+}
+::-moz-selection {
+  background: #e93a7d;
+  color: #fff;
+}
+::-webkit-selection {
+  background: #e93a7d;
+  color: #fff;
+}
+::selection {
+  background: #e93a7d;
+  color: #fff;
+}
+/* 2. Common responsive styles */
+/* Smaller than 1200px */
+@media (max-width: 1199.98px) {
+  header[class^="pt-"], section[class*=" pt-"] {
+    padding-top: 80px;
+  }
+  header[class*=" pb-"], section[class*=" pb-"] {
+    padding-bottom: 80px;
+  }
+  h1, h2 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  h1.big {
+    font-size: 62px;
+    line-height: 72px;
+  }
+  h2.small {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .navigation_mobile {
+    display: block;
+  }
+}
+/* Smaller than 992px */
+@media (max-width: 991.98px) {
+  h1, h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  h1.big {
+    font-size: 52px;
+    line-height: 62px;
+  }
+  h2.small {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .text-adaptive.f-22 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+/* Smaller than 768px */
+@media (max-width: 767.98px) {
+  h1, h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  h1.big {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  h2.small {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .text-adaptive.f-22 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .btn.lg {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+/* Smaller than 640px */
+/* Smaller than 576px */
+@media (max-width: 575.98px) {
+  h1, h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  h1.big {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  h2.small {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+/* 3. Headers */
+.header_18 {
+  background: #2f1893 url(../i/background-code-coder.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  .header_18 {
+    background-image: url(../i/background-code-coder.jpg);
+  }
+}
+/* 4. Navigations */
+/* 5. Contents */
+/* 6. Testimonials */
+/* 7. Features */
+/* 8. Forms */
+/* 9. Call to Actions */
+/* 10. Teams */
+/* 11. Pricing Tables */
+/* 12. Contacts */
+/* 13. Showcases */
+.showcase_10 .with_border {
+  border: 2px solid #ebeaed;
+}
+.showcase_10 .with_bg_img {
+  background: #2f1893 url(../i/showcase_10_img.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  .showcase_10 .with_bg_img {
+    background-image: url(../i/showcase_10_img@2x.jpg);
+  }
+}
+/* 14. Footers */
+@media (max-width: 1199.98px) {
+  .footer_8 a {
+    margin: 0 10px;
+  }
+}
+
+ul li {list-style-type: none;margin:0;padding:0 0.5em 0;}
+.color-main a{color:#f2f2f2;}

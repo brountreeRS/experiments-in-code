@@ -1,110 +1,141 @@
-
 <!DOCTYPE html>
 <html lang='en' class=''>
+
 <head>
-<link rel='stylesheet' href='/css/normalize.min.css'>
-<link rel='stylesheet' href='/css/css-grid.css'>
-<style class="cp-pen-styles">
-/*@import url("https://fonts.googleapis.com/css?family=Scope+One|Open+Sans:700");*/
+    <link rel='stylesheet' href='/css/normalize.min.css'>
+    <link rel='stylesheet' href='/css/css-grid.css'>
+    <style class="cp-pen-styles">
+        /*@import url("https://fonts.googleapis.com/css?family=Scope+One|Open+Sans:700");*/
 
-/* latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/fonts/OpenSans.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin */
-@font-face {
-  font-family: 'Scope One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Scope One'), local('ScopeOne-Regular'), url(/fonts/ScopeOne.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+        /* latin */
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/fonts/OpenSans.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
 
-body.scoped {
-    font-family: 'Scope One'!important;
-}
-</style>
+        /* latin */
+        @font-face {
+            font-family: 'Scope One';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Scope One'), local('ScopeOne-Regular'), url(/fonts/ScopeOne.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
+        body.scoped {
+            font-family: 'Scope One' !important;
+        }
+    </style>
 </head>
+
 <body class="scoped">
 
-<header>
-    <div></div>
-    <div><p>⬇ Grid lines are the horizontal and vertical dividing lines of the grid.</p></div>
-</header>
-<main>
-	<div>1</div>
-	<div class="title">2 
-		<h1>CSS Grid Layout</h1>
-		<h2>New Terminology</h2>
-	</div>
-	<div>3</div>
-	<div data-grid="grid-column">4
-		<p><strong>Grid Track (Column)</strong> A grid track is the space between two adjacent grid lines, forming a grid column or grid row.</p>
-	</div>
-	<div>5</div>		
-	<div data-grid="grid-area">6
-	
-<div id="featureBox"></div>
-    <div style="position:relative; width:936px; height:0px; overflow:visible; z-index:20;" id="violator">
-        <img src="//greensock.com/_img/HTML5_corner_banner.png" alt="HTML5" style="position:absolute; top:-5px; right:-5px;" />
-    </div>
-    <div class="feature" id="featureAnimation">
-        <div id="featureBackground" style="pointer-events:none;"></div>
-        <div class="featureTextWhite" id="whyGSAP">Why GSAP?</div>
-        <div class="featureTextGreen" id="performance">Performance</div>
-        <div class="featureTextWhite" id="compatibility">Compatibility</div>
-        <div id="browserIcons">
-            <img src="//greensock.com/_img/browser-chrome-big.png" width="82" height="80" />
-            <img src="//greensock.com/_img/browser-safari-big.png" width="77" height="86" />
-            <img src="//greensock.com/_img/browser-ie-big.png" width="82" height="74" />
-            <img src="//greensock.com/_img/browser-firefox-big.png" width="82" height="83" />
-            <img src="//greensock.com/_img/browser-opera-big.png" width="69" height="75" />
+    <header>
+        <div></div>
+        <div>
+            <p>⬇ Grid lines are the horizontal and vertical dividing lines of the grid.</p>
         </div>
-        <div class="featureTextMinor" id="fallDown">Other tools fall down in older browsers, but GSAP is remarkably compatible.</div>
-        <img id="anythingIcon" src="//greensock.com/_img/animate-anything.png" width="102" height="108" style="position:absolute; top:50px; left:143px; display:block;" />
-        <div id="transformBox" style="background-color:#91e600; width:130px; height:130px; position:absolute; top:40px; left:100px;"></div>
-        <div class="featureTextWhite" id="transform" style="font-size:34px; width:640px; text-align:left; left:270px; top:80px; line-height:36px;">Scale, rotate & move independently</div>
-        <div class="featureTextWhite" id="transformSub" style="font-size:16px; width:420px; text-align:left; left:270px; top:122px; color:#CCCCCC;">(impossible with CSS animations/transitions)</div>
-        <div class="featureTextWhite" id="anything" style="width:620px; text-align:left; left:302px; top:63px;">XNJYHQLJYQEW</div>
-        <div class="featureTextWhite" id="anythingSub" style="font-size:16px; width:390px; text-align:left; left:300px; top:122px; color:#CCCCCC;">CSS, SVG, canvas libraries, colors, beziers, etc.</div>
-        <div class="featureTextWhite" id="control" style="text-align: left; top:64px; left:130px;">Total control</div>
-        <div class="featureTextWhite" id="controlSub" style="font-size:16px; text-align:left; left:130px; top:122px; color:#CCCCCC;">pause(), play(), reverse(), or timeScale() any tween or sequence.</div>
-        <div class="featureTextWhite" id="GSAP" style="top:60px;">GSAP</div>
-        <div class="featureTextMinor" id="newStandardText" style="top:125px; text-align: center; width: 936px;">The new standard for HTML5 animation</div>
-        <div id="featureClick" style="position:absolute; width:936px; height:220px;"> <img src="//greensock.com/_img/blank.gif" width="936" height="220" /></div>
-        <div id="replay" style="text-align:right; position:absolute; left:825px; top:190px; cursor:pointer; color:#999999; font-family: 'Open Sans', sans-serif; font-size:12px; width:100px; visibility:hidden;">replay
-            <img id="replayIcon" src="//greensock.com/_img/codepen/allDevicesBanner/replay.png" width="19" height="19"bstyle="margin-left:2px; vertical-align: middle;" />
+    </header>
+    <main>
+        <div>1</div>
+        <div class="title">2
+            <h1>CSS Grid Layout</h1>
+            <h2>New Terminology</h2>
         </div>
-        <div id="ctrl_slider"></div>
-    </div>
-	
-	</div>
-	<div data-grid="grid-cell">7
-		<p><strong>Grid Cell</strong> A grid cell is the smallest unit of the grid. A grid cell is the intersection of a grid row and a grid column.</p> 
-	</div>
-	<div>8</div>
-	<div>9</div>
-	<div>10</div>	
-	<div>11</div>		
-	<div data-grid="grid-row">12
-		<p><strong>Grid Track (Row)</strong> A grid track is the space between two adjacent grid lines, forming a grid column or grid row.</p>
-	</div>
-</main>
-<footer>	
-	<p>CSS Grid Layout works in Firefox 52+, Safari 10.1 (and iOS), Chrome 57+ (and Chrome 57 for Android), Opera and Edge.</p>
-</footer>
+        <div>3</div>
+        <div data-grid="grid-column">4
+            <p><strong>Grid Track (Column)</strong> A grid track is the space between two adjacent grid lines, forming a
+                grid column or grid row.</p>
+        </div>
+        <div>5</div>
+        <div data-grid="grid-area">6
 
-<aside class="support">
-	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-<path d="M20.016 8.016v-4.031h-4.031v4.031h4.031zM20.016 14.016v-4.031h-4.031v4.031h4.031zM20.016 20.016v-4.031h-4.031v4.031h4.031zM14.016 8.016v-4.031h-4.031v4.031h4.031zM14.016 14.016v-4.031h-4.031v4.031h4.031zM14.016 20.016v-4.031h-4.031v4.031h4.031zM8.016 8.016v-4.031h-4.031v4.031h4.031zM8.016 14.016v-4.031h-4.031v4.031h4.031zM8.016 20.016v-4.031h-4.031v4.031h4.031zM20.016 2.016c1.078 0 1.969 0.891 1.969 1.969v16.031c0 1.078-0.891 1.969-1.969 1.969h-16.031c-1.078 0-1.969-0.891-1.969-1.969v-16.031c0-1.078 0.891-1.969 1.969-1.969h16.031z"></path>
-</svg>
-	<a class="unsupported" href="https://caniuse.com/#feat=css-grid">This browser does not support CSS Grid Layout.</a>
-	<a class="supported" href="https://caniuse.com/#feat=css-grid">This browser supports CSS Grid Layout.</a>
+            <div id="featureBox"></div>
+            <div style="position:relative; width:936px; height:0px; overflow:visible; z-index:20;" id="violator">
+                <img src="https://greensock.com/_img/HTML5_corner_banner.png" alt="HTML5" style="position:absolute; top:-5px; right:-5px;" />
+            </div>
+            <div class="feature" id="featureAnimation">
+                <div id="featureBackground" style="pointer-events:none;"></div>
+                <div class="featureTextWhite" id="whyGSAP">Why GSAP?</div>
+                <div class="featureTextGreen" id="performance">Performance</div>
+                <div class="featureTextWhite" id="compatibility">Compatibility</div>
+                <div id="browserIcons">
+                    <img src="https://greensock.com/_img/browser-chrome-big.png" width="82" height="80" />
+                    <img src="https://greensock.com/_img/browser-safari-big.png" width="77" height="86" />
+                    <img src="https://greensock.com/_img/browser-ie-big.png" width="82" height="74" />
+                    <img src="https://greensock.com/_img/browser-firefox-big.png" width="82" height="83" />
+                    <img src="https://greensock.com/_img/browser-opera-big.png" width="69" height="75" />
+                </div>
+                <div class="featureTextMinor" id="fallDown">Other tools fall down in older browsers, but GSAP is
+                    remarkably compatible.</div>
+                <img id="anythingIcon" src="https://greensock.com/_img/animate-anything.png" width="102" height="108"
+                    style="position:absolute; top:50px; left:143px; display:block;" />
+                <div id="transformBox"
+                    style="background-color:#91e600; width:130px; height:130px; position:absolute; top:40px; left:100px;">
+                </div>
+                <div class="featureTextWhite" id="transform"
+                    style="font-size:34px; width:640px; text-align:left; left:270px; top:80px; line-height:36px;">Scale,
+                    rotate & move independently</div>
+                <div class="featureTextWhite" id="transformSub"
+                    style="font-size:16px; width:420px; text-align:left; left:270px; top:122px; color:#CCCCCC;">
+                    (impossible with CSS animations/transitions)</div>
+                <div class="featureTextWhite" id="anything" style="width:620px; text-align:left; left:302px; top:63px;">
+                    XNJYHQLJYQEW</div>
+                <div class="featureTextWhite" id="anythingSub"
+                    style="font-size:16px; width:390px; text-align:left; left:300px; top:122px; color:#CCCCCC;">CSS,
+                    SVG, canvas libraries, colors, beziers, etc.</div>
+                <div class="featureTextWhite" id="control" style="text-align: left; top:64px; left:130px;">Total control
+                </div>
+                <div class="featureTextWhite" id="controlSub"
+                    style="font-size:16px; text-align:left; left:130px; top:122px; color:#CCCCCC;">pause(), play(),
+                    reverse(), or timeScale() any tween or sequence.</div>
+                <div class="featureTextWhite" id="GSAP" style="top:60px;">GSAP</div>
+                <div class="featureTextMinor" id="newStandardText" style="top:125px; text-align: center; width: 936px;">
+                    The new standard for HTML5 animation</div>
+                <div id="featureClick" style="position:absolute; width:936px; height:220px;"> <img
+                        src="https://greensock.com/_img/blank.gif" width="936" height="220" /></div>
+                <div id="replay"
+                    style="text-align:right; position:absolute; left:825px; top:190px; cursor:pointer; color:#999999; font-family: 'Open Sans', sans-serif; font-size:12px; width:100px; visibility:hidden;">
+                    replay
+                    <img id="replayIcon" src="https://greensock.com/_img/codepen/allDevicesBanner/replay.png" width="19"
+                        height="19" bstyle="margin-left:2px; vertical-align: middle;" />
+                </div>
+                <div id="ctrl_slider"></div>
+            </div>
 
-</aside>
+        </div>
+        <div data-grid="grid-cell">7
+            <p><strong>Grid Cell</strong> A grid cell is the smallest unit of the grid. A grid cell is the intersection
+                of a grid row and a grid column.</p>
+        </div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div data-grid="grid-row">12
+            <p><strong>Grid Track (Row)</strong> A grid track is the space between two adjacent grid lines, forming a
+                grid column or grid row.</p>
+        </div>
+    </main>
+    <footer>
+        <p>CSS Grid Layout works in Firefox 52+, Safari 10.1 (and iOS), Chrome 57+ (and Chrome 57 for Android), Opera
+            and Edge.</p>
+    </footer>
+
+    <aside class="support">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path
+                d="M20.016 8.016v-4.031h-4.031v4.031h4.031zM20.016 14.016v-4.031h-4.031v4.031h4.031zM20.016 20.016v-4.031h-4.031v4.031h4.031zM14.016 8.016v-4.031h-4.031v4.031h4.031zM14.016 14.016v-4.031h-4.031v4.031h4.031zM14.016 20.016v-4.031h-4.031v4.031h4.031zM8.016 8.016v-4.031h-4.031v4.031h4.031zM8.016 14.016v-4.031h-4.031v4.031h4.031zM8.016 20.016v-4.031h-4.031v4.031h4.031zM20.016 2.016c1.078 0 1.969 0.891 1.969 1.969v16.031c0 1.078-0.891 1.969-1.969 1.969h-16.031c-1.078 0-1.969-0.891-1.969-1.969v-16.031c0-1.078 0.891-1.969 1.969-1.969h16.031z">
+            </path>
+        </svg>
+        <a class="unsupported" href="https://caniuse.com/#feat=css-grid">This browser does not support CSS Grid
+            Layout.</a>
+        <a class="supported" href="https://caniuse.com/#feat=css-grid">This browser supports CSS Grid Layout.</a>
+
+    </aside>
 </body>
+
 </html>
