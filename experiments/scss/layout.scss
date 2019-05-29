@@ -902,10 +902,10 @@ b, strong{
 }
 
 .content_5{
-	background:$bg_dark url(../i/content_5_bg.jpg) no-repeat 50% 50%;
+	background:$bg_dark url(/images/feature/content_5_bg.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/content_5_bg@2x.jpg);
+		background-image:url(/images/feature/content_5_bg@2x.jpg);
 	}
 	@media(max-width:767.98px){
 		h2{
@@ -915,10 +915,10 @@ b, strong{
 }
 
 .content_6{
-	background:$bg_dark url(../i/content_6_bg.jpg) no-repeat 50% 50%;
+	background:$bg_dark url(/images/feature/content_6_bg.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/content_6_bg@2x.jpg);
+		background-image:url(/images/feature/content_6_bg@2x.jpg);
 	}
 	@media(max-width:991.98px){
 		.text-adaptive{
@@ -943,10 +943,10 @@ b, strong{
 }
 
 .content_14{
-	background:$bg_light url(../i/content_14_bg.jpg) no-repeat 50% 50%;
+	background:$bg_light url(/images/feature/content_14_bg.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/content_14_bg@2x.jpg);
+		background-image:url(/images/feature/content_14_bg@2x.jpg);
 	}
 	@media(max-width:767.98px){
 		.inner{
@@ -957,10 +957,10 @@ b, strong{
 }
 
 .content_15{
-	background:$bg_dark url(../i/content_15_bg.jpg) no-repeat 50% 50%;
+	background:$bg_dark url(/images/feature/content_15_bg.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/content_15_bg@2x.jpg);
+		background-image:url(/images/feature/content_15_bg@2x.jpg);
 	}
 	@media(max-width:1199.98px){
 		.container{
@@ -988,10 +988,10 @@ b, strong{
 }
 
 .content_17{
-	background:$bg_dark url(../i/content_17_bg.jpg) no-repeat 50% 50%;
+	background:$bg_dark url(/images/feature/content_17_bg.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/content_17_bg@2x.jpg);
+		background-image:url(/images/feature/content_17_bg@2x.jpg);
 	}
 	@media(max-width:359.98px){
 		.block_tip{
@@ -1084,10 +1084,10 @@ b, strong{
 
 .content_22{
 	min-height:100vh;
-	background:$bg_light url(../i/content_22_bg.jpg) no-repeat 50% 50%;
+	background:$bg_light url(/images/feature/content_22_bg.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/content_22_bg@2x.jpg);
+		background-image:url(/images/feature/content_22_bg@2x.jpg);
 	}
 	@media(max-width:1199.98px){
 		&[class^="pb-"], &[class*=" pb-"]{
@@ -1113,10 +1113,10 @@ b, strong{
 
 .content_25{
 	min-height:100vh;
-	background:$bg_dark url(../i/content_25_bg.jpg) no-repeat 50% 50%;
+	background:$bg_dark url(/images/feature/content_25_bg.jpg) no-repeat 50% 50%;
 	background-size:cover;
 	@media#{$retina}{
-		background-image:url(../i/content_25_bg@2x.jpg);
+		background-image:url(/images/feature/content_25_bg@2x.jpg);
 	}
 }
 
