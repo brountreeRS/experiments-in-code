@@ -589,7 +589,7 @@ video {width:50%;margin:0 auto;}
     z-index: 999;
     text-decoration: none;
   }
-  
+  path {stroke:#fff;}
   .logo {
     position: relative;
   }
