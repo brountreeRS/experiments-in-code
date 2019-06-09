@@ -20,7 +20,7 @@
                 "nb_sides": 5
             },
             "image": {
-                "src": "/images/particle3.svg",
+                "src": "/experiments-in-code/images/particle3.svg",
                 "width": 100,
                 "height": 100
             }
