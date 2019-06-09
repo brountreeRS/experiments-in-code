@@ -78,3 +78,5 @@ typings/
 # mac osx
 .DS_store
 .DS_Store
+.DS_Store
+experiments/.DS_Store
