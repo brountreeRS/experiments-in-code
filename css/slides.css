@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'League Spartan';
-  src: url('/fonts/leaguespartan-bold.eot');
-  src: url('/fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/leaguespartan-bold.woff') format('woff'),
-    url('/fonts/leaguespartan-bold.ttf') format('truetype'),
-    url('/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+  src: url('../fonts/leaguespartan-bold.eot');
+  src: url('../fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/leaguespartan-bold.woff') format('woff'),
+    url('../fonts/leaguespartan-bold.ttf') format('truetype'),
+    url('../fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
   font-weight: bold;
   font-style: normal;
 }
@@ -2573,7 +2573,7 @@ html:not(.mobile) .slide.video .background[style] {
   left: 0;
   height: 100%;
   width: 100%;
-  background: url('/images/svg/video-icon.svg') no-repeat;
+  background: url('../images/svg/video-icon.svg') no-repeat;
   background-position: center center;
   -webkit-transition: 0.5s;
   transition: 0.5s;
