@@ -17,7 +17,7 @@ camera.position.set(0, 0, 80);
 
 var loader = new THREE.TextureLoader();
 loader.crossOrigin = "Anonymous";
-var dotTexture = loader.load('../images/dotTexture.png');
+var dotTexture = loader.load('../../images/dotTexture.png');
 
 var radius = 50;
 var sphereGeom = new THREE.IcosahedronGeometry(radius, 5);
