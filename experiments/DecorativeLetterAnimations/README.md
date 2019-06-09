@@ -2,9 +2,9 @@
 
 Some decorative shape and letter animations based on ["Us By Night"](https://dribbble.com/shots/3932905-Us-By-Night) by [Animography](https://dribbble.com/animography).
 
-![Decorative Letter Animations](https://tympanus.net/codrops/wp-content/uploads/2018/01/DecorativeLetterEffects_featured.jpg)
+![Decorative Letter Animations](https://tympanus.net//wp-content/uploads/2018/01/DecorativeLetterEffects_featured.jpg)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=33640)
+[Article on ](https://tympanus.net//?p=33640)
 
 [Demo](https://tympanus.net/Development/DecorativeLetterAnimations/)
 
@@ -18,9 +18,9 @@ This resource can be used freely if integrated or build upon in personal or comm
 
 ## Misc
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
+Follow : [Twitter](http://www.twitter.com/), [Facebook](http://www.facebook.com/), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/), [Pinterest](http://www.pinterest.com//), [Instagram](https://www.instagram.com/ss/)
 
-[© Codrops 2018](http://www.codrops.com)
+[©  2018](http://www..com)
 
 
 

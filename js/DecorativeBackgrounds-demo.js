@@ -1,12 +1,12 @@
 /**
  * demo.js
- * http://www.codrops.com
+ * http://www..com
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  * 
- * Copyright 2017, Codrops
- * http://www.codrops.com
+ * Copyright 2017, 
+ * http://www..com
  */
 {
 	setTimeout(() => document.body.classList.add('render'), 60);

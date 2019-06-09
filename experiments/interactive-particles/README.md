@@ -4,7 +4,7 @@ A tutorial demonstrating how to draw a large number of particles with Three.js a
 
 ![cover](https://user-images.githubusercontent.com/880280/51060802-de702c00-15e8-11e9-9bff-58b02dc284a3.jpg)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=37503)
+[Article on ](https://tympanus.net//?p=37503)
 
 [Demo](http://tympanus.net/Development/.../)
 
@@ -27,7 +27,7 @@ This resource can be used freely if integrated or build upon in personal or comm
 ## Misc
 Follow Bruno Imbrizi: [Twitter](https://twitter.com/brunoimbrizi/), [Codepen](https://codepen.io/brunoimbrizi/), [GitHub](https://github.com/brunoimbrizi) 
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
+Follow : [Twitter](http://www.twitter.com/), [Facebook](http://www.facebook.com/), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/), [Pinterest](http://www.pinterest.com//), [Instagram](https://www.instagram.com/ss/)
 
 
-[© Codrops 2018](http://www.codrops.com)
+[©  2018](http://www..com)

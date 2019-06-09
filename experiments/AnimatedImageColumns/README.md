@@ -2,9 +2,9 @@
 
 An experimental layout where image columns get animated when a menu item is clicked. 
 
-![Animated Image Columns](https://tympanus.net/codrops/wp-content/uploads/2019/05/AnimatedColumns_feat.jpg)
+![Animated Image Columns](https://tympanus.net//wp-content/uploads/2019/05/AnimatedColumns_feat.jpg)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=40486)
+[Article on ](https://tympanus.net//?p=40486)
 
 [Demo](https://tympanus.net/Development/AnimatedImageColumns/)
 
@@ -21,10 +21,10 @@ This resource can be used freely if integrated or build upon in personal or comm
 
 ## Misc
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
+Follow : [Twitter](http://www.twitter.com/), [Facebook](http://www.facebook.com/), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/), [Pinterest](http://www.pinterest.com//), [Instagram](https://www.instagram.com/ss/)
 
 
-[© Codrops 2019](http://www.codrops.com)
+[©  2019](http://www..com)
 
 
 

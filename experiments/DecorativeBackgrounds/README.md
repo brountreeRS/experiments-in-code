@@ -2,13 +2,13 @@
 
 A collection of decorative shapes displayed as backgrounds using WebGL. The shapes are created with Three.js and animated with the TweenMax library. By Louis Hoebregts.
 
-![Decorative WebGL Backgrounds](https://tympanus.net/codrops/wp-content/uploads/2017/11/DecorativeWebGLBackgrounds_Featured.jpg)
+![Decorative WebGL Backgrounds](https://tympanus.net//wp-content/uploads/2017/11/DecorativeWebGLBackgrounds_Featured.jpg)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=33168)
+[Article on ](https://tympanus.net//?p=33168)
 
 [Demo](http://tympanus.net/Development/DecorativeBackgrounds/)
 
-This demo is kindly sponsored by [we.design: Snag the hottest new domain name for designers](http://go.thoughtleaders.io/TLDcodrops211117)
+This demo is kindly sponsored by [we.design: Snag the hottest new domain name for designers](http://go.thoughtleaders.io/TLD211117)
 
 ## Credits
 
@@ -24,9 +24,9 @@ This resource can be used freely if integrated or build upon in personal or comm
 
 Follow Louis: [Twitter](https://twitter.com/Mamboleoo), [Codepen](https://codepen.io/Mamboleoo/), [LinkedIn](https://www.linkedin.com/in/mamboleoo/), [GitHub](https://github.com/mamboleoo) 
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/codrops), [Pinterest](http://www.pinterest.com/codrops/), [Instagram](https://www.instagram.com/codropsss/)
+Follow : [Twitter](http://www.twitter.com/), [Facebook](http://www.facebook.com/), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/), [Pinterest](http://www.pinterest.com//), [Instagram](https://www.instagram.com/ss/)
 
-[© Codrops 2017](http://www.codrops.com)
+[©  2017](http://www..com)
 
 
 

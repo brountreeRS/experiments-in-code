@@ -104,7 +104,7 @@ main {
 }
 
 /* Header */
-.codrops-header {
+.b-header {
 	position: relative;
 	z-index: 100;
 	display: flex;
@@ -116,7 +116,7 @@ main {
 	justify-self: start;
 }
 
-.codrops-header__title {
+.b-header__title {
 	font-size: 1.15em;
 	font-weight: normal;
 	margin: 0 0 0 1em;
@@ -131,7 +131,7 @@ main {
 }
 
 /* Top Navigation Style */
-.codrops-links {
+.b-links {
 	position: relative;
 	display: flex;
 	margin: 0;
@@ -139,7 +139,7 @@ main {
 	white-space: nowrap;
 }
 
-.codrops-icon {
+.b-icon {
 	display: inline-block;
 	margin: 0.15em;
 	padding: 0.25em;

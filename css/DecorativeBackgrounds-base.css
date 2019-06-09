@@ -114,7 +114,7 @@ main {
 }
 
 /* Header */
-.codrops-header {
+.b-header {
 	position: relative;
 	z-index: 100;
 	display: flex;
@@ -126,7 +126,7 @@ main {
 	justify-self: start;
 }
 
-.codrops-header__title {
+.b-header__title {
 	font-size: 1em;
 	font-weight: 500;
 	margin: 0;
@@ -178,7 +178,7 @@ a.demo--current {
 }
 
 /* Top Navigation Style */
-.codrops-links {
+.b-links {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -187,7 +187,7 @@ a.demo--current {
 	white-space: nowrap;
 }
 
-.codrops-icon {
+.b-icon {
 	display: inline-block;
 	margin: 0.15em;
 	padding: 0.25em;
@@ -282,11 +282,11 @@ a.demo--current {
 	.content:not(.content--fixed) {
 		margin-bottom: 6em;
 	}
-	.codrops-header {
+	.b-header {
 		flex-direction: column;
 		align-items: center;
 	}
-	.codrops-header__title {
+	.b-header__title {
 		font-weight: bold;
 		padding-bottom: 0.25em;
 		text-align: center;
@@ -298,7 +298,7 @@ a.demo--current {
 		display: block;
 		margin: 1em auto;
 	}
-	.codrops-links {
+	.b-links {
 		margin: 0;
 	}
 }
