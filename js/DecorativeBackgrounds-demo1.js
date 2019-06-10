@@ -30,12 +30,12 @@ scene.add(galaxy);
 // Create dots
 var loader = new THREE.TextureLoader();
 loader.crossOrigin = "";
-var dotTexture = loader.load("../../images/dotTexture.png");
+var dotTexture = loader.load("../../images/btr.png");
 var dotsAmount = 3000;
 var dotsGeometry = new THREE.Geometry();
-var positions = new Float32Array(dotsAmount * 3);
+var positions = new Float32Array(dotsAmount * 1);
 
-var sizes = new Float32Array(dotsAmount);
+var sizes = new Float32Array(dotsAmount * 7);
 var colorsAttribute = new Float32Array(dotsAmount * 3);
 for (var i = 0; i < dotsAmount; i++) {
     var vector = new THREE.Vector3();
@@ -51,8 +51,8 @@ for (var i = 0; i < dotsAmount; i++) {
     vector.x = Math.cos(vector.theta) * Math.cos(vector.phi);
     vector.y = Math.sin(vector.phi);
     vector.z = Math.sin(vector.theta) * Math.cos(vector.phi);
-    vector.multiplyScalar(120 + (Math.random() - 0.5) * 5);
-    vector.scaleX = 5;
+    vector.multiplyScalar(140 + (Math.random() - 0.5) * 10);
+    vector.scaleX = 15;
 
     if (Math.random() > 0.5) {
         moveDot(vector, i);
@@ -60,12 +60,12 @@ for (var i = 0; i < dotsAmount; i++) {
     dotsGeometry.vertices.push(vector);
     vector.toArray(positions, i * 3);
     colors[vector.color].toArray(colorsAttribute, i*3);
-    sizes[i] = 5;
+    sizes[i] = 35;
 }
 
 function moveDot(vector, index) {
         var tempVector = vector.clone();
-        tempVector.multiplyScalar((Math.random() - 0.5) * 0.2 + 1);
+        tempVector.multiplyScalar((Math.random() - 1.5) * 0.2 + 1);
         TweenMax.to(vector, Math.random() * 3 + 3, {
             x: tempVector.x,
             y: tempVector.y,
@@ -73,7 +73,7 @@ function moveDot(vector, index) {
             yoyo: true,
             repeat: -1,
             delay: -Math.random() * 3,
-            ease: Power0.easeNone,
+            ease: Power0.easeOut,
             onUpdate: function () {
                 attributePositions.array[index*3] = vector.x;
                 attributePositions.array[index*3+1] = vector.y;
@@ -85,7 +85,7 @@ function moveDot(vector, index) {
 var bufferWrapGeom = new THREE.BufferGeometry();
 var attributePositions = new THREE.BufferAttribute(positions, 3);
 bufferWrapGeom.addAttribute('position', attributePositions);
-var attributeSizes = new THREE.BufferAttribute(sizes, 1);
+var attributeSizes = new THREE.BufferAttribute(sizes, 2);
 bufferWrapGeom.addAttribute('size', attributeSizes);
 var attributeColors = new THREE.BufferAttribute(colorsAttribute, 3);
 bufferWrapGeom.addAttribute('color', attributeColors);

@@ -4,7 +4,7 @@ Some decorative shape and letter animations based on ["Us By Night"](https://dri
 
 ![Decorative Letter Animations](https://tympanus.net//wp-content/uploads/2018/01/DecorativeLetterEffects_featured.jpg)
 
-[Article on ](https://tympanus.net//?p=33640)
+[Article on](https://tympanus.net//?p=33640)
 
 [Demo](https://tympanus.net/Development/DecorativeLetterAnimations/)
 
@@ -14,6 +14,7 @@ Some decorative shape and letter animations based on ["Us By Night"](https://dri
 - [Charming](https://github.com/yuanqing/charming) by Yuan Qing
 
 ## License
+
 This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
 
 ## Misc
@@ -21,8 +22,3 @@ This resource can be used freely if integrated or build upon in personal or comm
 Follow : [Twitter](http://www.twitter.com/), [Facebook](http://www.facebook.com/), [Google+](https://plus.google.com/101095823814290637419), [GitHub](https://github.com/), [Pinterest](http://www.pinterest.com//), [Instagram](https://www.instagram.com/ss/)
 
 [©  2018](http://www..com)
-
-
-
-
-

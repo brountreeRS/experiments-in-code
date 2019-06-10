@@ -42,7 +42,7 @@
                 shapeTypes: ['circle', 'rect', 'polygon'],
                 shapeColors: ['#e07272', '#0805b5', '#49c6ff', '#8bc34a', '#1e1e21', '#e24e81', '#e0cd24'],
                 shapeFill: true,
-                shapeStrokeWidth: 1
+                shapeStrokeWidth: 2
             }
             Object.assign(this.options, options);
             this.type = type || this.options.shapeTypes[0];
