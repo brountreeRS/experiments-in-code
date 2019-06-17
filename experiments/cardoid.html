@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+
+<title>Cardioid </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+<link rel="shortcut icon" href="../favicon.png"></link>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.support {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background: #1abc9c;
+}
+
+a {
+  margin: 5px 5px;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: #222;
+}
+
+</style>
+<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+
+
+</head>
+<body>
+
+
+
+
+<script>
+console.clear()
+
+var gui = new dat.GUI();
+var settings = {
+	totalPoints: 500,
+	factor: 2,
+	radius: 200,
+	animate: false,
+	speed: 0.01
+}
+
+function getVector(index){
+	var angle = map(index, 0, settings.totalPoints, 0, PI*2);
+	var vector = p5.Vector.fromAngle(angle + PI/2);
+	vector.mult(settings.radius)
+	return vector;
+}
+
+function setup(){
+	createCanvas(innerWidth, innerHeight);
+	colorMode(HSB, 255);
+}
+
+var count = 500;
+var j = 0;
+function draw(){
+	background('#222')
+	translate(width/2, height/2);
+	stroke(200)
+	noFill();
+	circle(0, 0, settings.radius*2);
+
+	for(let i = 0; i <  settings.totalPoints; i++){
+		var a = getVector(i);
+		var b = getVector(i * settings.factor);
+		let color = map(i, 0, count, 0, 255);
+		strokeWeight(sqrt(i/count))
+		stroke(color, 255, 255, 80)
+		line(a.x, a.y, b.x, b.y)
+	}
+
+	if(settings.animate){
+		settings.factor += settings.speed
+	}
+}
+addEventListener('resize', () =>{
+	resizeCanvas(innerWidth, innerHeight)
+});
+
+gui.add(settings, 'totalPoints', 0, 700).step(1);
+gui.add(settings, 'factor', -500, 500);
+gui.add(settings, 'radius', 100, 800);
+gui.add(settings, 'speed', -0.1, 0.1);
+gui.add(settings, 'animate');
+
+</script>
+</body>
+</html>
